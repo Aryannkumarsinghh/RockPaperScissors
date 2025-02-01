@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROck Paper Scissors game</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <h1>ROCK PAPER SCISSORS</h1>
@@ -12,13 +12,26 @@
         <div class="choice" id="rock">
             <img src="https://wrpsa.com/wp-content/uploads/2021/08/rock.png">
         </div>
-        <div class="choice" id="rock">
-            <img src="https://thumbs.dreamstime.com/z/rock-paper-scissors-paper-hand-isolated-white-31662022.jpg">
+        <div class="choice" id="paper">
+            <img src="https://wrpsa.com/wp-content/uploads/2021/08/paper.png">
         </div>
-        <div class="choice" id="rock">
+        <div class="choice" id="scissors">
             <img src="https://wrpsa.com/wp-content/uploads/2021/08/scissors.png">
         </div>
     </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <P>Comp</P>
+        </div>
+    </div>
+
+    <div class="msg-conatiner">
+        <p id="msg">Play your move</p>
     </div>
     <script src="app.js"></script>
 </body>
